@@ -60,31 +60,32 @@ body {
 }
 
 .item {
-  font-size: 15pt;
+  width: 50%;
+  font-size: 20pt;
   border: 1px solid black;
   max-width: 500px;
   min-width: 200px;
   margin: 20px auto;
-  background: rgb(198, 83, 83);
+  background: rgb(164, 200, 218);
   padding: 1px;
   border-radius: 10px;
 }
 .item:hover {
-  background: rgb(228, 98, 98);
+  background: rgb(255, 255, 255);
 }
 .item2 {
   width: 100%;
-  font-size: 12pt;
+  font-size: 15pt;
   border: 1px solid black;
   max-width: 400px;
   min-width: 200px;
   margin: 2px auto;
-  background: rgb(198, 83, 83);
+  background: rgb(164, 200, 218);
   padding: 10px;
   border-radius: 10px;
 }
 .item2:hover {
-  background: rgb(228, 98, 98);
+  background: rgb(255, 255, 255);
 }
 .search {
   display: inline-flex;
@@ -152,9 +153,9 @@ button:active {
 footer {
   bottom: 0;
   width: 100%;
-  background: white;
+  background: rgb(61, 129, 164);
 }
 
 footer:hover {
-  background: rgb(255, 240, 240);
+  background: rgb(57, 119, 151);
 }
