@@ -10,7 +10,9 @@
 
   <body>
     <span id="span-error"></span>
+    <!-- título -->
     <h1>COVID-19</h1>
+    <!-- seções que mostram as informações -->
     <div class="container wrap">
       <section class="item">
         <h5>Total Confirmados</h5>
@@ -38,19 +40,19 @@
         <h6>Selecione abaixo um País e uma Data:</h6>
       </div>
     </section>
-
     <br />
+    <!-- search, label de país -->
     <div class="search">
       <section class="item2">
         <div class="divPais">
+          <!-- seleção de país -->
           <label for="combo">País:</label>
-          <select class="custom-select" id="combo" name="combo">
-            <!-- <option>Global</option> -->
-          </select>
+          <select class="custom-select" id="combo" name="combo"></select>
         </div>
       </section>
       <section class="item2">
         <div class="divData">
+          <!-- seleção de datas -->
           <label for="sdata">Data:</label>
           <input
             id="sdata"
@@ -61,12 +63,14 @@
           />
         </div>
       </section>
+      <!-- botão para ser enviado a requisição -->
       <section class="item2">
         <div>
           <button id="btnSearch" type="button">Buscar</button>
         </div>
       </section>
     </div>
+    <!-- rodapé-->
     <footer>
       <p>
         Este site foi feito com a finalidade de mostrar <br />
@@ -78,8 +82,7 @@
         Documentation</a
       >
     </footer>
-    <!-- <p>&#8679;&#8613;&#8673;
-    <br>&#8681;&#8615;&#8675;</p> -->
+    <!-- script em javaScript-->
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

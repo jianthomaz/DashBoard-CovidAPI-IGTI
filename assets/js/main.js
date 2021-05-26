@@ -50,6 +50,7 @@ function SetCountries() {
 }
 SetCountries();
 
+// recebe as informações dos países pela API do covid
 function countriesInfo(select, sdate) {
   let formatDate = "?from=" + sdate[1] + "&to=" + sdate[0];
   fetch("https://api.covid19api.com/country/" + select + formatDate)
@@ -83,6 +84,7 @@ function countriesInfo(select, sdate) {
     });
 }
 
+// compara o valor diário de ontem e de hoje para verificar se subiu ou desceu as informações
 function compararValorDiario(anteOntem, ontem, hoje) {
   let diarioOntem = ontem - anteOntem;
   let diarioHoje = hoje - ontem;
@@ -98,6 +100,7 @@ function compararValorDiario(anteOntem, ontem, hoje) {
   }
 }
 
+//função para passar as informações dos países que foram selecionados.
 function SetInfoByCountrie() {
   //console.log(selectCountries);
   let slcCountry = document.getElementById("combo").value;
@@ -108,6 +111,7 @@ function SetInfoByCountrie() {
   }
 }
 
+// fomata a data para padrão ISO
 function formatDate() {
   let allDatas = getData();
   let initialDate = allDatas[0];
@@ -118,6 +122,7 @@ function formatDate() {
   return [initialDate, anteOntemDate];
 }
 
+//Pega a data que foi selecionada no campo Sdate.
 function getData() {
   let stringDate = document.getElementById("sdata").value;
   let initialDate = new Date(stringDate);
@@ -126,6 +131,7 @@ function getData() {
   return [initialDate, anteOntemDate];
 }
 
+//Botão
 document
   .getElementById("btnSearch")
   .addEventListener("click", () => SetInfoByCountrie());
