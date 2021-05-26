@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 390px;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-family: "Open sans", sans-serif;
+  font-size: 5.75em;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: "Open sans", sans-serif;
+  text-align: center;
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: "Open sans", sans-serif;
+  text-align: center;
+  margin: 0px 0 0 0;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open sans", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  background-image: url("../img/fundo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  padding: 3em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  background-size: cover;
+}
+
+.item {
+  font-size: 15pt;
+  border: 1px solid black;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 20px auto;
+  background: rgb(198, 83, 83);
+  padding: 1px;
+  border-radius: 10px;
+}
+.item:hover {
+  background: rgb(228, 98, 98);
+}
+.item2 {
+  width: 100%;
+  font-size: 12pt;
+  border: 1px solid black;
+  max-width: 400px;
+  min-width: 200px;
+  margin: 2px auto;
+  background: rgb(198, 83, 83);
+  padding: 10px;
+  border-radius: 10px;
+}
+.item2:hover {
+  background: rgb(228, 98, 98);
+}
+.search {
+  display: inline-flex;
+}
+.container {
+  display: flex;
+  max-width: 800px;
+  margin: 5px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.custom-select {
+  width: 240px;
+  text-align-last: center;
+}
+.infoSelect {
+  font-size: 1.1em;
+  font-family: "Open sans", sans-serif;
+}
+
+input {
+  width: 100%;
+  font-family: "Open sans", sans-serif;
+  border: 2px solid black;
+  font-size: 1.1em;
+  display: block;
+  padding: 20px;
+  margin: 20px 0px;
+  background: white;
+}
+select {
+  position: static;
+  font-family: "Open sans", sans-serif;
+  border: 2px solid black;
+  font-size: 1.1em;
+  padding: 20px;
+  margin: 20px 0px;
+  background: white;
+}
+.divData,
+.DivPais {
+  width: 100%;
+}
+
+label {
+  font-size: 2em;
+}
+
+button {
+  font-size: 30pt;
+  border: 2px solid black;
+  align-items: center;
+  padding: 10px;
+  margin: 55px auto;
+  border-radius: 10px;
+}
+button:hover {
+  background: rgb(249, 235, 235);
+  box-shadow: 1px grey;
+}
+button:active {
+  background: grey;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background:white;
+}
+
+footer:hover {
+  background: rgb(255, 240, 240);
