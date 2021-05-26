@@ -1,5 +1,5 @@
 # DashBoard-CovidAPI-IGTI
-Implementação de uma DashBoard sobre dos dados do Covid-19 no Brasil e no Mundo. 
+Implementação de uma DashBoard contendo dos dados do Covid-19 no Brasil e no Mundo. 
 
 # Essa DashBoard foi feita com a finalidade de implementação de um projeto utilizando os conhecimentos aprendidos no BootCamp-React-IGTI. 
 
